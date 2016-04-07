@@ -1,0 +1,263 @@
+/*.pikachoose{
+	width: 100%;
+    height: 400px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	
+	border-radius:2px;
+	background-color: #F8F8F8;
+	}*/
+
+/*.pika-thumbs{
+	width:30%;
+	margin:0;  
+	padding:2% 2% 2% 2%;
+	position: absolute;
+	top:0;
+	right:0;
+    display: table;
+	}*/
+		
+/*.pika-thumbs li{
+	float:left; 
+	width:46%;
+	margin:0 2% 2% 2%;
+	padding:1%; 
+ 
+	overflow: hidden;
+	list-style-type: none; 
+	
+	background: #E9E9E9; 
+	border: 1px solid #e5e5e5; 
+	cursor: pointer;
+	}*/
+	
+/*.pika-stage {
+	position: relative; 
+	border: 1px solid #e5e5e5; 
+	padding:0;
+	margin:0;
+	}	*/
+	
+ /*.pika-stage, .pika-textnav {
+	width: 68%;
+}*/
+		
+ /*.pika-stage img{
+	width:100%;	
+	max-height:370px;
+	border-radius:2px;
+	}*/
+	
+/*.pika-stage .caption {
+	position: absolute; 
+	background: transparent ;
+    border:none; 
+	color: #fafafa; 
+	padding:0; 
+	text-align: right; 
+}*/
+
+
+
+/*.pika-imgnav a {
+	display:none;
+	}*/
+
+/*.pika-textnav {
+	overflow: hidden; 
+	margin: 10px 0 0 0;
+	bottom:10px; 
+	position:absolute;
+	}*/
+
+/*.pika-textnav a {
+	font-size: 12px; 
+	text-decoration: none; 
+	color: #333; 
+	padding: 4px;
+	
+	}*/
+
+	/*.pika-textnav a.previous {
+		float: left; 
+		width: auto; 
+		display: none;}
+	.pika-textnav a.next {
+		float: right; 
+		width: auto; 
+		display: none;}*/
+
+/*for the tool tips*/
+/*.pika-tooltip{
+	font-size:12px;
+	position:absolute;
+	color:white;
+	padding:3px; 
+	background-color: rgba(0,0,0,0.7);
+	border:3px solid black;}*/
+/*.pika-counter{
+	position: absolute;
+	bottom: 45px;
+	left:15px;
+	color:white;
+	background:rgba(0,0,0,0.7);
+	font-size:11px;
+	padding:3px;
+	-moz-border-radius: 5px;
+	border-radius:5px;}*/
+
+/* If using user thumbnails there's a pause well the new large image loads. This is the loader for that */		
+/*.pika-loader{ 
+background-color:rgba(0,0,0,0.9); 
+color:white; 
+width:60px; 
+font-size:11px; 
+padding:5px 3px; 
+text-align:right; 
+position:absolute; 
+top:15px; 
+right:15px; }*/
+
+/*@media(max-width:400px){.pikachoose{height:200px;}}
+@media(min-width:401px){.pikachoose{height:250px;}}
+@media(min-width:601px){.pikachoose{height:300px;}}
+@media(min-width:769px){.pikachoose{height:220px;}}
+@media(min-width:1024px){.pikachoose{height:250px;}}
+@media(min-width:1200px){.pikachoose{height:320px;}}
+@media(min-width:1350px){.pikachoose{height:400px;}}
+
+@media(max-width:400px){.pika-stage img{max-height:200px;}}
+@media(min-width:401px){.pika-stage img{max-height:250px;}}
+@media(min-width:601px){.pika-stage img{max-height:300px;}}
+@media(min-width:769px){.pika-stage img{max-height:220px;}}
+@media(min-width:1024px){.pika-stage img{max-height:250px;}}
+@media(min-width:1200px){.pika-stage img{max-height:320px;}}
+@media(min-width:1350px){.pika-stage img{max-height:400px;}}*/
+
+/*-------------------PIKACHOOSE SERV---------------*/
+
+.img-servDescr .pikachoose{
+	width: 100%;
+    height: 400px;
+	display:table;
+	margin: 0 auto;
+	padding: 2%;
+	position: relative;
+	
+	border-radius:2px;
+	border:solid 1px;
+	border-color:#E0E0E0;
+	background-color: #FFF;
+	}
+
+@media(max-width:400px){.img-servDescr .pikachoose{height:300px;}}
+@media(min-width:401px){.img-servDescr .pikachoose{height:400px;}}
+@media(min-width:601px){.img-servDescr .pikachoose{height:250px;}}
+@media(min-width:1200px){.img-servDescr .pikachoose{height:400px;}}
+
+.img-servDescr .pika-thumbs{
+	width:100%;
+	margin:1% 0 0 0;;  
+	padding:2%;
+	position: relative;
+	top:2%;
+	right:0;
+    background-color: #e8e8e8;
+	}
+		
+.img-servDescr .pika-thumbs li{
+	float:left; 
+	width:25%;
+	padding:1; 
+ 
+	overflow: hidden;
+	list-style-type: none; 
+	
+	background-color: transparent; 
+	border: 1px solid;
+	border-color: transparent; 
+	cursor: pointer;
+	}
+	
+.img-servDescr .pika-stage {
+	position: relative; 
+	border: 1px solid #e5e5e5; 
+	padding:0;
+	margin:0;
+	}	
+	
+ .img-servDescr .pika-stage, .pika-textnav {
+	width: 100%;
+	}
+		
+ .img-servDescr .pika-stage img{
+	max-width:100%;	
+    height:350px;
+	border-radius:2px;
+	}
+
+@media(max-width:400px){.img-servDescr .pika-stage img{height:300px;}}
+@media(min-width:401px){.img-servDescr .pika-stage img{height:400px;}}
+@media(min-width:601px){.img-servDescr .pika-stage img{height:300px;}}
+@media(min-width:1200px){.img-servDescr .pika-stage img{height:450px;}}
+	
+
+.img-servDescr .pika-imgnav a {
+	display:none;
+	}
+
+.img-servDescr .pika-textnav {
+	overflow: hidden; 
+	margin: 10px 0 0 0;
+	bottom:10px; 
+	position:absolute;
+	
+	}
+.img-servDescr .pika-textnav a {
+	font-size: 12px; 
+	text-decoration: none; 
+	color: #333; 
+	padding: 4px;
+	
+	}
+	.img-servDescr .pika-textnav a.previous {
+		float: left; 
+		width: auto; 
+		display: none;}
+	.img-servDescr .pika-textnav a.next {
+		float: right; 
+		width: auto; 
+		display: none;}
+
+/*for the tool tips*/
+.img-servDescr .pika-tooltip{
+	font-size:12px;
+	position:absolute;
+	color:white;
+	padding:3px; 
+	background-color: rgba(0,0,0,0.7);
+	border:3px solid black;}
+.img-servDescr .pika-counter{
+	position: absolute;
+	bottom: 45px;
+	left:15px;
+	color:white;
+	background:rgba(0,0,0,0.7);
+	font-size:11px;
+	padding:3px;
+	-moz-border-radius: 5px;
+	border-radius:5px;}
+
+/* If using user thumbnails there's a pause well the new large image loads. This is the loader for that */		
+.img-servDescr .pika-loader{ 
+background-color:rgba(0,0,0,0.9); 
+color:white; 
+width:60px; 
+font-size:11px; 
+padding:5px 3px; 
+text-align:right; 
+position:absolute; 
+top:15px; 
+right:15px; }*/

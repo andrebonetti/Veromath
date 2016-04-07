@@ -1,0 +1,6 @@
+User-agent: * 
+Disallow: /adm 
+Disallow: /empresa_adm/
+Disallow: /equipamentos_adm/
+Disallow: /home_adm/
+Disallow: /servicos_adm/

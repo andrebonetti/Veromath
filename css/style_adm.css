@@ -1,0 +1,324 @@
+@@ -1,326 +1 @@
+body{
+	background-color: #F2F2F2;
+}
+
+/* ADM CONTENT */
+
+.admin-area{
+	width:100%;
+	margin:0;
+	padding:0;
+	display:table;
+}
+
+.admin-area .adm-container{
+	width:75%;
+	margin:2% 12.5% 2% 12.5%;
+	padding:2%;
+	display:table;
+	
+	border-radius:2px;
+	border:solid 1px;
+	border-color:#DDD;
+	background-color:#FFF;
+}
+
+.admin-area .adm-container h1{
+	font-size:1.8em;
+	margin:0 0 2% 0;
+}
+
+.admin-area .adm-container .btn{
+	float:right;
+	margin:1% 0 0 0;
+}
+
+.admin-area .adm-container .alert{
+	padding:1%;
+}
+
+.admin-area .adm-container form input{
+	margin:0 0 1% 0;
+}
+
+.admin-area .adm-container form input.short{
+	width:15%;
+}
+
+.admin-area .adm-container form select{
+	width:30%;
+	margin:1% 0 1% 0;
+}
+
+.admin-area .adm-container form input.medium{
+	width:30%;
+}
+
+.admin-area .adm-container table{
+	width:100%;
+
+	border-radius:4px;
+	border:solid 1px;
+	border-color:#CCC;
+	background-color:#F4F4F4;
+}
+
+.admin-area .adm-container table tr{
+	border-bottom:solid 1px;
+	border-bottom-color:#E4E4E4;
+}
+
+.admin-area .adm-container table tr td{
+	padding:0.25%;
+}
+
+.admin-area .adm-container table tr td .btn{
+	width:90%;
+	margin:2% 5% 2% 5%;
+}
+
+.admin-area .adm-container .btn-add-img{
+	float:none;
+	margin:1% 0 1% 0;
+}
+
+/*------------ SIGN IN ------------------*/
+section.signin{
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+.sign-in .adm-container{
+	width:100%;
+	margin:0;
+	padding:0;
+	display:table;
+	
+	border-radius:0;
+	border:solid 0px;
+	border-color:transparent;
+	background-color:transparent;
+}
+
+.sign-in .navbar{
+	display:none;
+}
+
+section.signin .alert{
+	width:95%;
+	margin:0.2% 2.5% 3% 2.5%;	
+	padding:1%;
+}
+
+form.login{	
+	width:20%;
+	min-width:200px;
+	max-width:300px;
+	text-align:center;
+	margin-left: 40%;
+}
+
+@media screen and (max-width: 480px) {
+	form.login{	
+	width:80%;
+	text-align:center;
+	margin:0 0 0 1%;
+	padding:0;
+	}
+}
+
+
+/* BANCO DE IMAGENS */
+
+.bd-imgs{
+	width:100%;
+	margin:2% 0 2% 0;
+	padding:0 1% 1% 1%;
+	display:table;
+	
+	border-radius:2px;
+	border:solid 1px;
+	border-color:#DDD;
+	background-color:#F5F5F5;
+}
+
+.bd-imgs h2{
+	margin:0;
+	padding:1% 0 1% 0;
+	font-size:1.5em;
+	color:#900;
+}
+
+.bd-imgs .tab-content{
+	width:100%;
+	display:table;
+	margin-top:-1.5%;
+ 	background-color:#FFF;
+}
+
+.bd-imgs .tab-content .tab-pane{
+	padding:2%;
+}
+
+.bd-imgs .tab-content .tab-pane table{
+	max-width:100%;
+}
+
+.bd-imgs .tab-content .tab-pane table tr td{
+	width:10%;
+}
+
+.bd-imgs .tab-content .tab-pane table img{
+	max-width:200px;
+}
+
+.bd-imgs h3{
+	width:100%;
+	float:left;
+	font-size:1.4em;
+}
+
+.bd-imgs .img-content{
+	width:25%;
+	min-height:200px;
+	max-height:300px;
+	float:left;
+	padding:0.5%;
+	
+}
+
+.bd-imgs .img-content img{
+	max-width:100%;
+}
+
+.bd-imgs .img-content a:hover img{
+	opacity:0.7;
+}
+
+/* ---------- HOME --------- */
+
+/* SLIDE SHOW */
+
+.admin-area .adm-container .slide-show{
+	width:100%;
+}
+
+.admin-area .adm-container .slide-show img{
+	height:380px;
+}
+
+.admin-area .adm-container .slide-content{
+	width:102%;
+	display:table;
+}
+
+.admin-area .adm-container .slide-content .item{
+	width:33.33%;
+	float:left;
+	padding:2% 2% 1% 0;
+	display:table;
+	
+	border-bottom:solid 1px;
+	border-bottom-color:#CCC;
+}
+
+.admin-area .adm-container .slide-content .item .imagem-item{
+	height:150px;
+}
+
+.admin-area .adm-container .slide-content .item .imagem-item img{
+	width:100%;
+	max-height:150px;
+}
+
+.admin-area .adm-container .slide-content .item input{
+	width:50%;
+	float:left;
+	margin:1% 1% 0 0;
+}
+
+.admin-area .adm-container .slide-content .item a.btn-danger{
+	float:right;
+	margin:1% 0 0 0;
+}
+
+/* EDIT IMG VIEWS*/
+
+.com-imgs .adm-container .img-content{
+	width:100%;
+	float:left;
+	display:table;
+	margin:0 0 2% 0;
+	padding:0;
+}
+
+.com-imgs .adm-container .img-content h2{
+	font-size:1.4em;
+}
+
+.com-imgs .adm-container .img-content .edit-view{
+	width:50%;
+	float:left;
+	padding:0 5% 0 0;
+}
+
+.com-imgs .adm-container .img-content .edit-view img{
+	max-width:100%;
+}
+
+/* EQUIPAMENTO */
+
+.equipamentos .adm-container table tr td{
+	max-width:200px;
+}
+
+.equipamentos .adm-container table img{
+	max-width:200px;
+}
+
+.galeria{
+	clear:both;
+	width:100%;
+	display: table;
+}
+
+.galeria h4{
+	margin-top:0;
+}
+
+.galeria .galeria-item{
+	width:25%;
+	float:left;
+	padding:1%;
+}
+
+.galeria .galeria-item .imagem-galeria{
+	height: 170px;
+	margin:0 0 2% 0; 
+}
+
+.galeria .galeria-item .imagem-galeria img{
+	width:100%;
+	max-height: 170px;
+}
+
+.galeria .btn-danger{
+	padding:2%;
+}
+
+.galeria a.btn{
+	clear:both;
+	width: 22%;
+}
+
+/* QUERIES */
+
+form,.btn-submit{
+	clear:both;
+}
+
+.none{
+	display:none;
+}

@@ -1,0 +1,78 @@
+@import 'base';
+@import 'display_divs';
+
+/* VERSÃO ADM */
+.adm_on{
+    display: table;
+    background-color:@white-5;
+    
+    .adm-buttons{
+        clear: both;
+        float: right;
+        margin:0.5%;
+        padding:3px;
+        
+        .btn{
+            padding:6px 8px;
+            font-size:1.1em;
+        }
+    }
+}
+
+.add-servico{    
+    width: 100%;
+    text-align: center;
+    
+    .adm-buttons{
+        .lateral-margin(25%);
+            
+        .btn{width: 100%;}    
+    }
+}
+
+.options-servico{
+    width: 50%;
+    margin-top:1%;
+    padding:2%;
+    .border(4px,@white-4);
+    
+    a{
+        width: 100%;
+        margin:1% 0 1% 0;
+    }
+}
+
+.options-equipamentos{
+    width: 100%;
+    background-color: transparent;
+    
+     .adm-buttons{
+        .lateral-margin(50%);
+            
+        .btn{
+            .float-config(left,49%);
+            margin-right:1%;
+        }    
+    }
+}
+
+.options-equipamento{
+    background-color: transparent;
+    
+    .adm-buttons{
+        .lateral-margin(96%);
+        margin-top:-3%;
+        padding:2% 1%;
+        
+        border-radius:0 0 4px 4px;
+        background-color: @white-5;
+        
+        a.btn{
+            .float-config(right,30%);
+            margin-right:1%;
+            margin-bottom: 1%;
+            margin-right:1%;
+            padding:2px 4px;
+        }
+    }
+}
